@@ -12,6 +12,6 @@ def print_first_directors_movie_titles
   
   directors_database
 
-		puts directors_database[:movies][:title]
+		puts directors_database[movies][title]
 	
 end
