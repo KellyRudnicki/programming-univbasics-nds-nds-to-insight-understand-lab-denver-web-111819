@@ -30,5 +30,3 @@ def print_first_directors_movie_titles
     puts test
 	
 end
-	
-end
