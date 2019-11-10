@@ -18,9 +18,9 @@ def print_first_directors_movie_titles
     while outer_hash < directors_database.length do
       if directors_database[outer_hash][:name].include? "Stephen Spielberg"
         inner_hash = 0
-        test << directors_database[outer_hash][:movies]
+        #test << directors_database[outer_hash][:movies]
         while inner_hash < directors_database[outer_hash].length do
-		      #test << directors_database[outer_hash][:title]
+		      test << directors_database[outer_hash][:movies][inner_hash][:title]
 		      inner_hash += 1
 		    end
       end
