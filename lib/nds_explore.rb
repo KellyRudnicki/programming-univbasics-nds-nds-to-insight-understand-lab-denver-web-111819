@@ -12,6 +12,7 @@ def print_first_directors_movie_titles
   
   directors_database
   outer_hash = 0
+  test = []
   
   length = directors_database.length
     
@@ -20,7 +21,13 @@ def print_first_directors_movie_titles
         inner_hash = 0
         new_length = directors_database[outer_hash][inner_hash].length
         new_length.times do |inner_hash|
-          
+          test << directors_database[outer_hash][inner_hash]
+		    end
+		  end
+		end 
+	puts test
+	
+		    
   outer_hash = 0
   test = []
 
