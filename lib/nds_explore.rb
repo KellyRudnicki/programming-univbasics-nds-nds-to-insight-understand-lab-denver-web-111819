@@ -20,13 +20,11 @@ def print_first_directors_movie_titles
         inner_hash = 0
         #test << directors_database[outer_hash][:movies]
         while inner_hash < directors_database[outer_hash].length do
-		      test << directors_database[outer_hash][:movies][inner_hash][:title]
+		      puts directors_database[outer_hash][:movies][inner_hash][:title]
 		      inner_hash += 1
 		    end
       end
       outer_hash += 1
     end
-    
-    puts test
 	
 end
