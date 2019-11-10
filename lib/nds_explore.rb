@@ -12,7 +12,6 @@ def print_first_directors_movie_titles
   
   directors_database
   outer_hash = 0
-  test = []
 
       
     while outer_hash < directors_database.length do
