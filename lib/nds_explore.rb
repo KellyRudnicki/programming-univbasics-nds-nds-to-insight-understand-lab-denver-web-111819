@@ -18,7 +18,8 @@ def print_first_directors_movie_titles
     
     length.times do |outer_hash|
       if directors_database[outer_hash][:name].include? "Stephen Spielberg"
-        inner_hash = 0
+        inner_hash = directors_database[outer_hash][inner_hash]
+        
         new_length = directors_database[outer_hash][inner_hash].length
         new_length.times do |inner_hash|
           new_test << directors_database[outer_hash][inner_hash]
