@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   
-directors_database
+  directors_database
   outer_hash = 0
   test = []
 
