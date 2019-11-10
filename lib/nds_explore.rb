@@ -21,6 +21,6 @@ def print_first_directors_movie_titles
       end
       outer_hash += 1
     end
-    puts inner_hash[:title]
+    puts inner_hash{:title}
 	
 end
